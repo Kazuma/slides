@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress.css" rel="stylesheet" />
+</head>
+<body>
+<div id="impress" class="impress-not-supported">
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b> or <b>Safari</b> browser. Firefox 10 (to be released soon) will also handle it.</p>
+    </div>
+
+<div id="title" class="step" data-y="0" data-x="0">
+<h1>Web 基礎</h1>
+
+</div>
+<div class="step" data-y="0" data-x="1200">
+<h2>資料 </h2>
+
+<p><span id="url-size">
+https://github.com/Kazuma/Textbook/
+</span></p>
+
+</div>
+<div class="step" data-y="0" data-x="2400">
+<h1>1. Web</h1>
+
+</div>
+<div class="step" data-y="0" data-x="3600">
+<h2>Web ってなに？</h2>
+
+<p>直訳すると蜘蛛の巣</p>
+
+<p><span id="image">イメージ図</span>
+<img src="http://upload.wikimedia.org/wikipedia/commons/b/b9/WorldWideWebAroundWikipedia.png" alt="イメージ図" align="center" height="500px"></p>
+
+</div>
+<div class="step" data-y="0" data-x="4800">
+<h2>Web == Internet ?</h2>
+
+<pre>
+WWW (World Wide Web) は、インターネット上で提供されているハイパーテキストシステム。一般的に Web と呼ばれることが多い。
+</pre>
+
+<pre>
+Internet は、コンピュータネットワーク自体を指す言葉であり、Web はそのアプリケーション(応用技術)である。
+</pre>
+
+<p><span id="image">イメージ図</span>
+<img src="https://cacoo.com/diagrams/YtFSVwXWzGEPRbzK-02C69.png" align="center"></p>
+
+</div>
+<div class="step" data-y="0" data-x="6000">
+<h2>Web の概念</h2>
+
+<p>URI とは</p>
+
+<pre><code>インターネット上に存在する情報資源の場所を指し示す記述方式。インターネットにおける情報の「住所」にあたる。
+</code></pre>
+
+<p>URL とは</p>
+
+<pre><code>現在インターネットで広く用いられている URL は URI の機能の一部を具体的に仕様化したものである。
+</code></pre>
+
+<blockquote>
+  <p>参考: <a href="http://e-words.jp/w/URI.html">IT 用語辞典 - URI</a></p>
+</blockquote>
+
+</div>
+<div class="step" data-y="0" data-x="7200">
+<h2>URI の記述</h2>
+
+<p><span id="image">イメージ図</span>
+<img src="https://cacoo.com/diagrams/Qk926fUQkzvxRlYj-ABE04.png" align="center"></p>
+
+</div>
+<div class="step" data-y="0" data-x="8400">
+<h2>URI スキームって？</h2>
+
+<p>URI スキームとは</p>
+
+<pre><code>インターネット上の資源の所在を表すURI(URL)の先頭部分で、資源に到達するための手段を表したもの。
+</code></pre>
+
+<p>つまり、</p>
+
+<pre><code>http:  https:  ftp:  mailto
+</code></pre>
+
+<p>の事</p>
+
+</div>
+<div class="step" data-y="0" data-x="9600">
+<h2>HTTP ？</h2>
+
+</div>
+<div class="step" data-y="0" data-x="10800">
+<h2>HTTP とは</h2>
+
+<pre>
+ハイパーテキスト転送プロトコル (HTTP) は、分散・共同体ハイパーメディア情報システムのアプリケーションレベルプロトコルである。 このプロトコルは、リクエストメソッド、エラーコード、ヘッダ等の拡張を経て、ネームサーバや分散オブジェクト管理システム等、ハイパーテキストのために使う以上に多くの作業のために用いる事ができる、一般的でステートレスなプロトコルである。 HTTP の特徴として、データ表現のタイプ付け、及びネゴシエーションがあり、これによって転送されるデータの独立性が確立されるようなシステムが構築できる。
+</pre>
+
+<blockquote>
+  <p>参考: RFC2616</p>
+</blockquote>
+
+</div>
+<div class="step" data-y="0" data-x="12000">
+<h2>もっと短く</h2>
+
+</div>
+<div class="step" data-y="0" data-x="13200">
+<h2>HTTP とは</h2>
+
+<pre><code>Webサーバとクライアント(Webブラウザなど)がデータを送受信するのに使われるプロトコル
+</code></pre>
+
+<p>参考: <a href="http://e-words.jp/w/HTTP.html">IT 用語辞典 - HTTP</a></p>
+
+</div>
+<div class="step" data-y="0" data-x="14400">
+<h2>送受信できる内容</h2>
+
+<ul>
+<li>画像 (jpg, png, gif など)</li>
+<li>音声 (wave, mp3 など)</li>
+<li>動画 (mpeg, mp4, avi など) </li>
+</ul>
+
+<p>etc..</p>
+
+</div>
+<div class="step" data-y="0" data-x="15600">
+<h2>HTTP 通信を行うには</h2>
+
+<ul>
+<li>IP アドレス</li>
+<li>ポート番号</li>
+</ul>
+
+</div>
+<div class="step" data-y="0" data-x="16800">
+<h2>ポート番号とは</h2>
+
+<pre><code>インターネット上の通信において、複数の相手と同時に接続を行うためにIPアドレスの下に設けられたサブ(補助)アドレス。単にポートと略されることもある。
+</code></pre>
+
+</div>
+<div class="step" data-y="0" data-x="18000">
+<h2>例えるなら</h2>
+
+<pre><code>IP アドレスは住所
+ポート番号は入り口
+</code></pre>
+
+<p>HTTP のポート番号は <strong>80</strong></p>
+
+<p>HTTPS のポート番号は <strong>443</strong></p>
+
+</div>
+<div class="step" data-y="0" data-x="19200">
+<h2>HTTP 通信の流れ</h2>
+
+<p><span id="image">イメージ図</span>
+<img src="https://cacoo.com/diagrams/W98xLM2mXGtMC3nE-70270.png" align="center"></p>
+
+</div>
+<div class="step" data-y="0" data-x="20400">
+<h2>プロトコルとは</h2>
+
+<pre><code>ネットワークを介してコンピュータ同士が通信を行う上で、相互に決められた約束事の集合。
+通信手順、通信規約などと呼ばれることもある。 
+</code></pre>
+
+<p>参考: <a href="http://e-words.jp/w/E38397E383ADE38388E382B3E383AB.html">IT 用語辞典 - プロトコル</a></p>
+
+</div>
+<div class="step" data-y="0" data-x="21600">
+<h2>よく使われてるプロトコル</h2>
+
+<ul>
+<li>HTTP (HyperText Transfar Protocol)</li>
+<li>FTP (File Transfar Protocol)</li>
+<li>SMTP (Simple Mail Transfar Protocol)</li>
+<li>POP (Post Office Protocol)</li>
+<li>IMAP (Internet Message Access Protocol)</li>
+</ul>
+
+</div>
+<div class="step" data-y="0" data-x="22800">
+<h2>どこで決めてるの？</h2>
+
+<p>W3C (World Wide Web Consortium)</p>
+
+<pre><code>WWW で利用される技術の標準化をすすめる団体。
+WWW 技術に関わりの深い企業、大学・研究所、個人が集まって発足した。
+</code></pre>
+
+</div>
+
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+<script src="js/impress.js"></script>
+
+</body>
+</html>
+
