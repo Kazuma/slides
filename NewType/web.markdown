@@ -136,7 +136,7 @@ HTTP 通信の流れ
 どこで決めてるの？
 ------------------
 
-IFTF (Internet Engineering Task Force)
+IETF (Internet Engineering Task Force)
 
     インターネットに関連する技術の標準化を促し、インターネットの円滑な運用を図っている国際的組織の名称である。
     インターネットに関連する技術の標準的仕様について議論、策定を行い、主にRFC（Request for Comment）と呼ばれる文書として公開している。
